@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	was easier to review just a few lines rather than the entire document. made it much easier to spot such a small typo
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	If you run into trouble down the track it makes it easier to go back and fix any mistakes. If you learn something new you can skip back to a time when it's easier to implement the change
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pros
+		- more in control of how many versions you end up with
+		- able to break up your work into identifiable sections/versions when you do a commit
+		
+	Cons
+		- might not have comitted enough to properly utelise the version control features (i.e. too long a break between commits)
+		
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git realises that changes might be made from changes/fixes that require changes in multiple files. 
+	Whereas Google Docs seems to have a safer approach and not assume anything about the user or files and treat everything separately
+
+How can you use the commands git log and git diff to view the history of files?
+
+	Using "git log" and "git diff id-1 id-2" inside a git repository
+	Shows which lines/sections are different in each file by showing what was removed and/or added
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	You always know that you can revert back to a working file. Able to explore different approaches without breaking the project.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Projects in Udacity courses for practice and then maybe apply it to my current work
