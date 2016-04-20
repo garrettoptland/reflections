@@ -2,3 +2,7 @@ When would you want to create a remote directory rather than keeping all your wo
 
 	When sharing your work for collaborating with other people. Or sharing it to the public.
 	
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	In case someone contributes anything unecessary, broken or malicious to your repository you don't want to add that without checking their changes first. Also their changes might overwrite some of your code
+
