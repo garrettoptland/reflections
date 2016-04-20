@@ -1,1 +1,4 @@
 When would you want to create a remote directory rather than keeping all your work local?
+
+	When sharing your work for collaborating with other people. Or sharing it to the public.
+	
