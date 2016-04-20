@@ -2,9 +2,30 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	It creates an empty hidden folder called .git
 	Need to do it so Git can store all the metadata and information of your commits in the repository
-	
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	It doesn't hold all of the files in the repository, only the ones you add that you want to commit.
 	It allows you to commit only the files you've made changes to.
-	
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using "git diff" and "git diff --staged" you can check which changes are different in the working directory, staging area and recent commits
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you're trying out experimental features or changes that could fundamentally change the project (different languages, different approach, risky features etc.)
+	Branches can help keep your working files intact while letting you explore and potentially grow the project in different areas/ways
+
+How do the diagrams help you visualize the branch structure?
+
+	It helps organise what would be convoluted changes or abstract concepts into an easy to visualise structure of changes that can be tracked and added too easily
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The two branches changes are added together as the new master branch and it makes a commit from it. All changes are added according to time.
+	It's represented that way in a diagram to show how a new branch or feature can break off and then be re-added to the master branch
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Automatic merging can save lots of time and effort. Manually merging is very essential for resolving conflicts but can be complicated and time consuming.
