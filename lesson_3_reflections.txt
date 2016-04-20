@@ -12,3 +12,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	Clones can be done locally or from GitHub to local
 	Branches can be represented anywhere as they're just apart of repositorys in general
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	That way everything is up to date and if any more changes are added and conflicts arise, checking the conflicts won't be as big a task.
+
