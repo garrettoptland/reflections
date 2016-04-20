@@ -21,3 +21,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Could use dropbox and simply notify and email people which file I'm working on. Dropbox would be a bit easier, since it has some features of Git not allowing multiple edits at the same time
 	But for any project that is quite large or has a lot of contributors all other methods aren't really feasible.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When you're trying a different feature or approach, or something that might break the project.
+	Can be good to keep experimental or different elements compartmentalised.
+	Could also get out of hand if there's too many branches that have changes in the same files that could conflict and make merging very difficult.
